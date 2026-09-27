@@ -1,44 +1,47 @@
 # PathFinder AI — Student Growth & Opportunity Navigator
 
-A Streamlit application layer built on the existing Member 1–4 ML work.
+> An AI-powered student career guidance platform that analyzes student profiles, identifies skill gaps, matches relevant opportunities, and generates personalized career roadmaps.
 
-## What the app includes
+🌐 **Live Demo:** https://pathfinder-ai-navigator.streamlit.app/
 
-- Login / Sign Up
-- Home dashboard
-- Resume upload (PDF / DOCX)
-- AI profile extraction from the resume
-- Personal details + target career selection
-- Skill assessment
-- Skill gap detection
-- Live opportunity matching from the existing opportunity cache
-- Personalized learning roadmap
-- What-If Career Simulator
-- Progress tracking
 
-## Run locally
+---
 
-```powershell
-pip install -r requirements.txt
-streamlit run app.py
-```
+## 📌 Overview
 
-## Data flow
+**PathFinder AI** is an AI-powered career guidance platform designed to help students understand their current skills, identify skill gaps, discover relevant opportunities, and follow a personalized career-development roadmap.
+
+The platform analyzes information from a student's resume and profile, including:
+
+- Academic background
+- Technical skills
+- Projects
+- Internships
+- Certifications
+- Career interests
+- Target career
+
+PathFinder AI converts this information into actionable career insights through a structured, step-by-step workflow.
+
+---
+
+## 💡 Architecture
+
+PathFinder AI provides a complete student career-development journey:
 
 ```text
-Resume Upload
-    ↓
-Member 1 — Profile & Resume Intelligence
-    ↓
-Member 2 — Skill Assessment + Skill Gap Detection
-    ↓
-Member 3 — Opportunity Matching
-    ↓
-Member 4 — Roadmap + What-If Career Simulator
-    ↓
-Member 5 — Streamlit UI + Progress Tracking
-```
-
-The existing Member 1–4 modules remain in place. The Streamlit integration calls them after a user submits a resume and target career.
-
-Authentication is a local SQLite demo database stored in `data/pathfinder_auth.db` after first use. For production multi-user deployment, replace this with a hosted authentication provider.
+Student Resume / Profile
+          ↓
+   Profile Analysis
+          ↓
+   Skill Assessment
+          ↓
+   Skill Gap Detection
+          ↓
+  Opportunity Matching
+          ↓
+ Personalized Roadmap
+          ↓
+   Progress Tracking
+          ↓
+   Career Simulator
