@@ -1,0 +1,6 @@
+source_id,company,source_type,identifier,enabled
+LV001,Dun & Bradstreet,lever,dnb,true
+GH001,Stripe,greenhouse,stripe,true
+AB001,FirstWork,ashby,firstwork,true
+SR001,WAES,smartrecruiters,WAES,true
+GH002,Airbnb,greenhouse,airbnb,true

@@ -1,0 +1,87 @@
+{
+    "student_id": "S001",
+    "skill_assessment": {
+        "python": {
+            "level": "Beginner",
+            "score": 50,
+            "evidence": [
+                "Profile",
+                "Certification"
+            ]
+        },
+        "c": {
+            "level": "Beginner",
+            "score": 40,
+            "evidence": [
+                "Profile"
+            ]
+        },
+        "java": {
+            "level": "Advanced",
+            "score": 100,
+            "evidence": [
+                "Profile",
+                "Project",
+                "Internship",
+                "Certification"
+            ]
+        },
+        "html": {
+            "level": "Beginner",
+            "score": 40,
+            "evidence": [
+                "Profile"
+            ]
+        },
+        "machine learning": {
+            "level": "Advanced",
+            "score": 100,
+            "evidence": [
+                "Profile",
+                "Project",
+                "Internship",
+                "Certification"
+            ]
+        },
+        "artificial intelligence": {
+            "level": "Intermediate",
+            "score": 75,
+            "evidence": [
+                "Profile",
+                "Internship"
+            ]
+        },
+        "software development": {
+            "level": "Intermediate",
+            "score": 75,
+            "evidence": [
+                "Profile",
+                "Project",
+                "Certification"
+            ]
+        },
+        "data structures": {
+            "level": "Beginner",
+            "score": 40,
+            "evidence": [
+                "Profile"
+            ]
+        },
+        "algorithms": {
+            "level": "Beginner",
+            "score": 40,
+            "evidence": [
+                "Profile"
+            ]
+        },
+        "problem solving": {
+            "level": "Beginner",
+            "score": 50,
+            "evidence": [
+                "Profile",
+                "Certification"
+            ]
+        }
+    },
+    "overall_score": 61.0
+}

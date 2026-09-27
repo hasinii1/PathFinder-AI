@@ -1,0 +1,132 @@
+skill,category
+Python,Programming
+C,Programming
+C++,Programming
+Java,Programming
+JavaScript,Programming
+TypeScript,Programming
+R,Programming
+HTML,Web Development
+CSS,Web Development
+React,Web Development
+Next.js,Web Development
+Node.js,Web Development
+FastAPI,Web Development
+Flask,Web Development
+Django,Web Development
+Streamlit,Web Development
+SQL,Database
+MySQL,Database
+PostgreSQL,Database
+SQLite,Database
+MongoDB,Database
+Firebase,Database
+Supabase,Database
+MySQL Workbench,Database
+NumPy,Data Science
+Pandas,Data Science
+SciPy,Data Science
+Polars,Data Science
+Jupyter Notebook,Data Science
+Google Colab,Data Science
+Matplotlib,Data Visualization
+Seaborn,Data Visualization
+Plotly,Data Visualization
+Power BI,Business Intelligence
+Tableau,Business Intelligence
+Microsoft Excel,Data Analysis
+Power Query,Data Analysis
+Power Pivot,Data Analysis
+Scikit-learn,Machine Learning
+XGBoost,Machine Learning
+LightGBM,Machine Learning
+CatBoost,Machine Learning
+Machine Learning,Machine Learning
+Supervised Learning,Machine Learning
+Unsupervised Learning,Machine Learning
+Regression,Machine Learning
+Classification,Machine Learning
+Clustering,Machine Learning
+Random Forest,Machine Learning
+Decision Tree,Machine Learning
+K-Nearest Neighbors,Machine Learning
+Support Vector Machine,Machine Learning
+Linear Regression,Machine Learning
+Logistic Regression,Machine Learning
+Feature Engineering,Machine Learning
+TensorFlow,Deep Learning
+PyTorch,Deep Learning
+Keras,Deep Learning
+Neural Networks,Deep Learning
+Convolutional Neural Network,Deep Learning
+CNN,Deep Learning
+Recurrent Neural Network,Deep Learning
+RNN,Deep Learning
+LSTM,Deep Learning
+Transfer Learning,Deep Learning
+Artificial Intelligence,Artificial Intelligence
+Natural Language Processing,Artificial Intelligence
+NLP,Artificial Intelligence
+Computer Vision,Computer Vision
+OpenCV,Computer Vision
+YOLO,Computer Vision
+YOLOv5,Computer Vision
+YOLOv8,Computer Vision
+YOLOv11,Computer Vision
+Object Detection,Computer Vision
+Image Classification,Computer Vision
+Image Processing,Computer Vision
+Face Recognition,Computer Vision
+OCR,Computer Vision
+Image Segmentation,Computer Vision
+Transformers,NLP
+Hugging Face,NLP
+BERT,NLP
+GPT,Generative AI
+Large Language Models,Generative AI
+LLM,Generative AI
+Generative AI,Generative AI
+Prompt Engineering,Generative AI
+LangChain,Generative AI
+RAG,Generative AI
+Retrieval Augmented Generation,Generative AI
+Git,Development Tools
+GitHub,Development Tools
+GitLab,Development Tools
+VS Code,Development Tools
+Docker,Development Tools
+Postman,Development Tools
+REST API,Development Tools
+API Development,Development Tools
+AWS,Cloud
+Microsoft Azure,Cloud
+Google Cloud Platform,Cloud
+Google Cloud,Cloud
+Cloud Computing,Cloud
+Data Analytics,Data Analytics
+Data Science,Data Science
+Data Visualization,Data Visualization
+Statistics,Data Science
+Exploratory Data Analysis,Data Science
+EDA,Data Science
+Data Cleaning,Data Science
+Data Preprocessing,Data Science
+Apache Spark,Big Data
+Hadoop,Big Data
+PySpark,Big Data
+Big Data,Big Data
+Cybersecurity,Cybersecurity
+Network Security,Cybersecurity
+Ethical Hacking,Cybersecurity
+Cryptography,Cybersecurity
+Arduino,IoT
+Raspberry Pi,IoT
+Internet of Things,IoT
+Sensors,IoT
+Agile,Software Engineering
+Software Development,Software Engineering
+Object Oriented Programming,Software Engineering
+OOP,Software Engineering
+Data Structures,Computer Science
+Algorithms,Computer Science
+Problem Solving,Computer Science

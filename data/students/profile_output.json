@@ -1,0 +1,70 @@
+{
+    "student_id": "S001",
+    "personal_information": {
+        "name": "ERELLA RISHITHA",
+        "email": "rishithaerella@gmail.com",
+        "phone": "6301111320"
+    },
+    "career_goal": "Motivated Computer Science & Engineering student seeking an opportunity to begin a professional career in the software industry. Interested in software development programming problem-solving and emerging technologies. Eager to apply academic knowledge and practical skills in a professional environment while continuously developing technical and interpersonal abilities.",
+    "target_career": "Full Stack Developer",
+    "skills": {
+        "Programming": [
+            "Python",
+            "C",
+            "Java"
+        ],
+        "Web Development": [
+            "HTML"
+        ],
+        "Machine Learning": [
+            "Machine Learning"
+        ],
+        "Artificial Intelligence": [
+            "Artificial Intelligence"
+        ],
+        "Software Engineering": [
+            "Software Development"
+        ],
+        "Computer Science": [
+            "Data Structures",
+            "Algorithms",
+            "Problem Solving"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Java Development Projects",
+            "description": [
+                "Developed hands-on projects using Java to strengthen programming and software development skills.",
+                "Applied object-oriented programming concepts and problem-solving techniques."
+            ]
+        },
+        {
+            "name": "AI & Machine Learning Projects",
+            "description": [
+                "Worked on practical AI/ML projects based on daily-life applications.",
+                "Gained hands-on experience in applying machine learning concepts to real-world problems."
+            ]
+        }
+    ],
+    "internships": [
+        {
+            "role": "OASIS INFOBYTE Java Development Intern",
+            "organization": "",
+            "duration": "",
+            "description": [
+                "Gained practical experience in Java development and worked on programming-oriented tasks. InternPe AI & Machine Learning Intern Gained hands-on exposure to Artificial Intelligence and Machine Learning through practical tasks."
+            ]
+        }
+    ],
+    "certifications": [
+        "Java Development Python / Machine Learning",
+        "ACHIEVEMENTS & ACTIVITIES",
+        "Participated in academic technical presentations and projects.",
+        "Completed programming and development-oriented practical work.",
+        "Continuously developing skills in software development and emerging technologies.",
+        "SOFT SKILLS",
+        "Communication Teamwork Problem Solving Adaptability Time Management Quick Learning"
+    ],
+    "interests": []
+}

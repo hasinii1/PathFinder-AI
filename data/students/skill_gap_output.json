@@ -1,0 +1,63 @@
+{
+    "student_id": "S001",
+    "skill_gap_analysis": {
+        "target_career": "Full Stack Developer",
+        "status": "Career skill gap analysis completed",
+        "required_skills": [
+            "html",
+            "css",
+            "javascript",
+            "react",
+            "node.js",
+            "sql",
+            "git",
+            "rest api"
+        ],
+        "strong_skills": [],
+        "developing_skills": [
+            {
+                "skill": "html",
+                "score": 40.0,
+                "level": "Beginner"
+            }
+        ],
+        "missing_skills": [
+            {
+                "skill": "css",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "javascript",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "react",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "node.js",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "sql",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "git",
+                "score": 0,
+                "level": "Missing"
+            },
+            {
+                "skill": "rest api",
+                "score": 0,
+                "level": "Missing"
+            }
+        ],
+        "career_readiness_percentage": 5.0
+    }
+}
