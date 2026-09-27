@@ -1,0 +1,488 @@
+{
+    "student_id": "S001",
+    "target_career": "Full Stack Developer",
+    "status": "success",
+    "opportunities": [
+        {
+            "opportunity_id": "Greenhouse:8130787",
+            "title": "Staff Software Engineer, Payments Compliance",
+            "company": "Airbnb",
+            "source": "Greenhouse",
+            "location": "Remote - US",
+            "job_type": "",
+            "url": "https://careers.airbnb.com/positions/8130787?gh_jid=8130787",
+            "fetched_at": "2026-09-24T16:57:09.815067+00:00",
+            "updated_at": "2026-09-18T22:03:10-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 50.0,
+            "job_skill_coverage": 66.67,
+            "required_skills": [
+                "c++",
+                "css",
+                "html",
+                "java",
+                "javascript",
+                "react"
+            ],
+            "matched_skills": [],
+            "developing_skills": [
+                "html"
+            ],
+            "missing_skills": [
+                "c++",
+                "css",
+                "java",
+                "javascript",
+                "react"
+            ],
+            "match_percentage": 40.83,
+            "recommendation": {
+                "why_this_matches": [
+                    "html — Developing",
+                    "Relevant to target career",
+                    "Moderate career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "c++",
+                    "css",
+                    "html",
+                    "java",
+                    "javascript",
+                    "react"
+                ]
+            },
+            "skills_to_improve": [
+                "c++",
+                "css",
+                "html",
+                "java",
+                "javascript",
+                "react"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:8212314",
+            "title": "Design Engineer, Expansion",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "US, Canada",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=8212314",
+            "fetched_at": "2026-09-24T16:55:44.703322+00:00",
+            "updated_at": "2026-09-22T11:54:37-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 100.0,
+            "required_skills": [
+                "css",
+                "html",
+                "react"
+            ],
+            "matched_skills": [],
+            "developing_skills": [
+                "html"
+            ],
+            "missing_skills": [
+                "css",
+                "react"
+            ],
+            "match_percentage": 37.5,
+            "recommendation": {
+                "why_this_matches": [
+                    "html — Developing",
+                    "Relevant to target career",
+                    "Strong career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "css",
+                    "html",
+                    "react"
+                ]
+            },
+            "skills_to_improve": [
+                "css",
+                "html",
+                "react"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:7144975",
+            "title": "Design Engineer, Presence",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "US, Canada",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=7144975",
+            "fetched_at": "2026-09-24T16:55:44.837925+00:00",
+            "updated_at": "2026-09-22T12:13:26-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 100.0,
+            "required_skills": [
+                "css",
+                "html",
+                "react"
+            ],
+            "matched_skills": [],
+            "developing_skills": [
+                "html"
+            ],
+            "missing_skills": [
+                "css",
+                "react"
+            ],
+            "match_percentage": 37.5,
+            "recommendation": {
+                "why_this_matches": [
+                    "html — Developing",
+                    "Relevant to target career",
+                    "Strong career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "css",
+                    "html",
+                    "react"
+                ]
+            },
+            "skills_to_improve": [
+                "css",
+                "html",
+                "react"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:7325252",
+            "title": "Frontend Engineer, Payments & Risk",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "N/A",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=7325252",
+            "fetched_at": "2026-09-24T16:55:51.571523+00:00",
+            "updated_at": "2026-09-10T13:11:58-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 60.0,
+            "required_skills": [
+                "css",
+                "html",
+                "react",
+                "software development",
+                "typescript"
+            ],
+            "matched_skills": [],
+            "developing_skills": [
+                "html"
+            ],
+            "missing_skills": [
+                "css",
+                "react",
+                "software development",
+                "typescript"
+            ],
+            "match_percentage": 33.75,
+            "recommendation": {
+                "why_this_matches": [
+                    "html — Developing",
+                    "Relevant to target career",
+                    "Moderate career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "css",
+                    "html",
+                    "react",
+                    "software development",
+                    "typescript"
+                ]
+            },
+            "skills_to_improve": [
+                "css",
+                "html",
+                "react",
+                "software development",
+                "typescript"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:8194604",
+            "title": "Frontend Engineer, Data Product Experiences",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "N/A",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=8194604",
+            "fetched_at": "2026-09-24T16:55:51.352894+00:00",
+            "updated_at": "2026-09-22T15:34:29-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 60.0,
+            "required_skills": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ],
+            "matched_skills": [],
+            "developing_skills": [],
+            "missing_skills": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ],
+            "match_percentage": 30.75,
+            "recommendation": {
+                "why_this_matches": [
+                    "Relevant to target career",
+                    "Moderate career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "css",
+                    "data visualization",
+                    "javascript",
+                    "react",
+                    "typescript"
+                ]
+            },
+            "skills_to_improve": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:8194606",
+            "title": "Frontend Engineer, Data Product Experiences",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "N/A",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=8194606",
+            "fetched_at": "2026-09-24T16:55:51.430523+00:00",
+            "updated_at": "2026-09-22T15:31:09-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 60.0,
+            "required_skills": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ],
+            "matched_skills": [],
+            "developing_skills": [],
+            "missing_skills": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ],
+            "match_percentage": 30.75,
+            "recommendation": {
+                "why_this_matches": [
+                    "Relevant to target career",
+                    "Moderate career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "css",
+                    "data visualization",
+                    "javascript",
+                    "react",
+                    "typescript"
+                ]
+            },
+            "skills_to_improve": [
+                "css",
+                "data visualization",
+                "javascript",
+                "react",
+                "typescript"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:7964956",
+            "title": "Full Stack Engineer, Growth",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "Singapore",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=7964956",
+            "fetched_at": "2026-09-24T16:55:51.992506+00:00",
+            "updated_at": "2026-09-10T13:11:58-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 60.0,
+            "required_skills": [
+                "algorithms",
+                "css",
+                "javascript",
+                "machine learning",
+                "react"
+            ],
+            "matched_skills": [],
+            "developing_skills": [],
+            "missing_skills": [
+                "algorithms",
+                "css",
+                "javascript",
+                "machine learning",
+                "react"
+            ],
+            "match_percentage": 30.75,
+            "recommendation": {
+                "why_this_matches": [
+                    "Relevant to target career",
+                    "Moderate career-skill coverage"
+                ],
+                "skills_to_improve": [
+                    "algorithms",
+                    "css",
+                    "javascript",
+                    "machine learning",
+                    "react"
+                ]
+            },
+            "skills_to_improve": [
+                "algorithms",
+                "css",
+                "javascript",
+                "machine learning",
+                "react"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:8164674",
+            "title": "Sales Strategy & Operations Analyst",
+            "company": "Stripe",
+            "source": "Greenhouse",
+            "location": "Chicago",
+            "job_type": "",
+            "url": "https://stripe.com/jobs/search?gh_jid=8164674",
+            "fetched_at": "2026-09-24T16:56:16.565265+00:00",
+            "updated_at": "2026-09-10T13:11:58-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 37.5,
+            "required_skills": [
+                "data science",
+                "data visualization",
+                "javascript",
+                "plotly",
+                "python",
+                "react",
+                "sql",
+                "tableau"
+            ],
+            "matched_skills": [],
+            "developing_skills": [],
+            "missing_skills": [
+                "data science",
+                "data visualization",
+                "javascript",
+                "plotly",
+                "python",
+                "react",
+                "sql",
+                "tableau"
+            ],
+            "match_percentage": 26.25,
+            "recommendation": {
+                "why_this_matches": [
+                    "Relevant to target career"
+                ],
+                "skills_to_improve": [
+                    "data science",
+                    "data visualization",
+                    "javascript",
+                    "plotly",
+                    "python",
+                    "react",
+                    "sql",
+                    "tableau"
+                ]
+            },
+            "skills_to_improve": [
+                "data science",
+                "data visualization",
+                "javascript",
+                "plotly",
+                "python",
+                "react",
+                "sql",
+                "tableau"
+            ]
+        },
+        {
+            "opportunity_id": "Greenhouse:8202878",
+            "title": "Staff Workday Integration Engineer, Tech Foundations",
+            "company": "Airbnb",
+            "source": "Greenhouse",
+            "location": "United States",
+            "job_type": "",
+            "url": "https://careers.airbnb.com/positions/8202878?gh_jid=8202878",
+            "fetched_at": "2026-09-24T16:57:10.451648+00:00",
+            "updated_at": "2026-09-18T17:34:49-04:00",
+            "career": "Full Stack Developer",
+            "career_relevance": 37.5,
+            "job_skill_coverage": 33.33,
+            "required_skills": [
+                "agile",
+                "git",
+                "java",
+                "llm",
+                "python",
+                "rest api",
+                "software development",
+                "sql",
+                "typescript"
+            ],
+            "matched_skills": [],
+            "developing_skills": [],
+            "missing_skills": [
+                "agile",
+                "git",
+                "java",
+                "llm",
+                "python",
+                "rest api",
+                "software development",
+                "sql",
+                "typescript"
+            ],
+            "match_percentage": 25.42,
+            "recommendation": {
+                "why_this_matches": [
+                    "Relevant to target career"
+                ],
+                "skills_to_improve": [
+                    "agile",
+                    "git",
+                    "java",
+                    "llm",
+                    "python",
+                    "rest api",
+                    "software development",
+                    "sql",
+                    "typescript"
+                ]
+            },
+            "skills_to_improve": [
+                "agile",
+                "git",
+                "java",
+                "llm",
+                "python",
+                "rest api",
+                "software development",
+                "sql",
+                "typescript"
+            ]
+        }
+    ]
+}
