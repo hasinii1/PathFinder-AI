@@ -4,3 +4,16 @@ GH001,Stripe,greenhouse,stripe,true
 AB001,FirstWork,ashby,firstwork,true
 SR001,WAES,smartrecruiters,WAES,true
 GH002,Airbnb,greenhouse,airbnb,true
+GH003,Dropbox,greenhouse,dropbox,true
+GH004,Reddit,greenhouse,reddit,true
+GH005,Cloudflare,greenhouse,cloudflare,true
+GH006,Datadog,greenhouse,datadog,true
+GH007,GitLab,greenhouse,gitlab,true
+GH008,Okta,greenhouse,okta,true
+GH009,Pinterest,greenhouse,pinterest,true
+GH010,Duolingo,greenhouse,duolingo,true
+GH011,Robinhood,greenhouse,robinhood,true
+GH012,DoorDash,greenhouse,doordash,false
+GH013,Wayfair,greenhouse,wayfair,false
+GH016,Asana,greenhouse,asana,true
+GH017,Brex,greenhouse,brex,true

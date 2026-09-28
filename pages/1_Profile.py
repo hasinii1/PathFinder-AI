@@ -497,6 +497,7 @@ if resume_text:
 
                 from resume_processing.profile_analyzer import (
                     analyze_profile,
+                    calculate_ats_evaluation,
                 )
 
 
@@ -571,6 +572,46 @@ if resume_text:
                         "",
                     )
                 )
+
+
+                # ------------------------------------------------
+                # QUALITY-BASED ATS-STYLE RESUME EVALUATION
+                # ------------------------------------------------
+
+                ats_evaluation = calculate_ats_evaluation(
+                    resume_text,
+                    parsed.get(
+                        "personal_information",
+                        {},
+                    ),
+                    parsed.get(
+                        "skills",
+                        {},
+                    ),
+                    parsed.get(
+                        "projects",
+                        [],
+                    ),
+                    parsed.get(
+                        "internships",
+                        [],
+                    ),
+                    parsed.get(
+                        "certifications",
+                        [],
+                    ),
+                    career_goal=parsed.get(
+                        "career_goal",
+                        "",
+                    ),
+                    target_career=parsed.get(
+                        "target_career",
+                        "",
+                    ),
+                )
+
+                parsed["ats_score"] = ats_evaluation["total"]
+                parsed["ats_evaluation"] = ats_evaluation
 
 
                 # ------------------------------------------------
@@ -675,6 +716,76 @@ if profile_ready and personal:
         '<div style="height:10px"></div>'
     )
 
+
+    # ========================================================
+    # ATS-STYLE RESUME SCORE
+    # ========================================================
+
+    ats_evaluation = profile.get(
+        "ats_evaluation",
+        {},
+    )
+
+    if not isinstance(
+        ats_evaluation,
+        dict,
+    ):
+        ats_evaluation = {}
+
+    ats_score = ats_evaluation.get(
+        "total",
+        profile.get(
+            "ats_score",
+            0,
+        ),
+    )
+
+    try:
+        ats_score = int(
+            float(ats_score)
+        )
+    except (TypeError, ValueError):
+        ats_score = 0
+
+    ats_score = max(
+        0,
+        min(100, ats_score),
+    )
+
+    # ========================================================
+    # ATS-STYLE RESUME SCORE
+    # ========================================================
+
+    score_description = (
+        "Quality-based estimate using resume evidence, content strength, "
+        "career relevance and ATS structure. This is not a commercial ATS score."
+    )
+
+    st.html(
+        f"""
+        <div class="profile-card" style="margin:12px 0 18px; border:1px solid #E3D9CA;">
+            <div style="text-align:center; display:flex; flex-direction:column; align-items:center;">
+                <div style="color:#756D63; font-size:12px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase;">
+                    ATS-Style Resume Score
+                </div>
+                <div style="color:#A95738; font-size:46px; font-weight:900; line-height:1.1; margin-top:6px;">
+                    {ats_score}/100
+                </div>
+                <div class="small-muted" style="margin-top:8px; max-width:700px; line-height:1.5; text-align:center;">
+                    {html.escape(score_description)}
+                </div>
+                <div style="width:min(420px, 80%); margin-top:18px;">
+                    <div style="height:10px; background:#EAE1D3; border-radius:999px; overflow:hidden;">
+                        <div style="width:{ats_score}%; height:100%; background:#C96F4A; border-radius:999px;"></div>
+                    </div>
+                    <div class="small-muted" style="margin-top:7px; text-align:center;">
+                        {ats_score}% evaluated
+                    </div>
+                </div>
+            </div>
+        </div>
+        """
+    )
 
     # ========================================================
     # PERSONAL + CAREER

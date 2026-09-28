@@ -1,49 +1,49 @@
 {
     "student_id": "S001",
     "skill_gap_analysis": {
-        "target_career": "Full Stack Developer",
+        "target_career": "AI Engineer",
         "status": "Career skill gap analysis completed",
         "required_skills": [
-            "html",
-            "css",
-            "javascript",
-            "react",
-            "node.js",
-            "sql",
-            "git",
-            "rest api"
+            "python",
+            "machine learning",
+            "artificial intelligence",
+            "deep learning",
+            "tensorflow",
+            "natural language processing",
+            "git"
         ],
-        "strong_skills": [],
+        "strong_skills": [
+            {
+                "skill": "machine learning",
+                "score": 100.0,
+                "level": "Advanced"
+            },
+            {
+                "skill": "artificial intelligence",
+                "score": 75.0,
+                "level": "Intermediate"
+            }
+        ],
         "developing_skills": [
             {
-                "skill": "html",
-                "score": 40.0,
+                "skill": "python",
+                "score": 50.0,
                 "level": "Beginner"
             }
         ],
         "missing_skills": [
             {
-                "skill": "css",
+                "skill": "deep learning",
                 "score": 0,
                 "level": "Missing"
             },
             {
-                "skill": "javascript",
+                "skill": "tensorflow",
                 "score": 0,
                 "level": "Missing"
             },
             {
-                "skill": "react",
-                "score": 0,
-                "level": "Missing"
-            },
-            {
-                "skill": "node.js",
-                "score": 0,
-                "level": "Missing"
-            },
-            {
-                "skill": "sql",
+                "skill": "natural language processing",
                 "score": 0,
                 "level": "Missing"
             },
@@ -51,13 +51,8 @@
                 "skill": "git",
                 "score": 0,
                 "level": "Missing"
-            },
-            {
-                "skill": "rest api",
-                "score": 0,
-                "level": "Missing"
             }
         ],
-        "career_readiness_percentage": 5.0
+        "career_readiness_percentage": 32.14
     }
 }

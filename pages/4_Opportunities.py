@@ -109,25 +109,94 @@ highest_match = max(
 # ---------------------------------------------------------
 c1, c2, c3 = st.columns(3)
 
-
 with c1:
-    st.metric(
-        "Matched Opportunities",
-        len(opps)
+    st.html(
+        f"""
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Matched Opportunities
+            </div>
+            <div style="
+                color:#5F574F;
+                font-size:34px;
+                line-height:1.15;
+            ">
+                {len(opps)}
+            </div>
+        </div>
+        """
     )
-
 
 with c2:
-    st.metric(
-        "Target Career",
-        career
+    st.html(
+        f"""
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Target Career
+            </div>
+            <div style="
+                color:#5F574F;
+                font-size:30px;
+                line-height:1.2;
+                white-space:normal;
+                overflow-wrap:anywhere;
+                word-break:break-word;
+            ">
+                {html.escape(str(career))}
+            </div>
+        </div>
+        """
     )
 
-
 with c3:
-    st.metric(
-        "Highest Match",
-        f"{highest_match:.0f}%"
+    st.html(
+        f"""
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Highest Match
+            </div>
+            <div style="
+                color:#5F574F;
+                font-size:34px;
+                line-height:1.15;
+            ">
+                {highest_match:.0f}%
+            </div>
+        </div>
+        """
     )
 
 
