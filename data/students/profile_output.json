@@ -1,12 +1,13 @@
 {
     "student_id": "S001",
+    "ats_score": 59,
     "personal_information": {
         "name": "ERELLA RISHITHA",
         "email": "rishithaerella@gmail.com",
         "phone": "6301111320"
     },
     "career_goal": "Motivated Computer Science & Engineering student seeking an opportunity to begin a professional career in the software industry. Interested in software development programming problem-solving and emerging technologies. Eager to apply academic knowledge and practical skills in a professional environment while continuously developing technical and interpersonal abilities.",
-    "target_career": "Full Stack Developer",
+    "target_career": "AI Engineer",
     "skills": {
         "Programming": [
             "Python",
@@ -66,5 +67,21 @@
         "SOFT SKILLS",
         "Communication Teamwork Problem Solving Adaptability Time Management Quick Learning"
     ],
-    "interests": []
+    "interests": [],
+    "ats_evaluation": {
+        "total": 59,
+        "breakdown": {
+            "Contact Information": 4,
+            "Career Objective / Summary": 4,
+            "Education": 8,
+            "Technical Skills": 9,
+            "Projects": 10,
+            "Internships / Experience": 5,
+            "Certifications": 2,
+            "Achievements / Activities": 3,
+            "Target Career Keyword Relevance": 4,
+            "ATS Structure / Parseability": 10
+        },
+        "description": "Quality-based estimate using resume evidence, content strength, career relevance and ATS structure. This is not a commercial ATS score."
+    }
 }

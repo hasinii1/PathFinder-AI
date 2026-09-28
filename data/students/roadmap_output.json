@@ -1,76 +1,52 @@
 {
     "personalized_roadmap": {
-        "target_career": "Full Stack Developer",
-        "total_steps": 10,
+        "target_career": "AI Engineer",
+        "total_steps": 7,
         "steps": [
             {
-                "skill": "html",
+                "skill": "python",
                 "phase": "PHASE 1 \u2014 Strengthen Basics",
                 "current_status": "Developing",
                 "priority": "High",
-                "why_needed": "Strengthen core fundamentals required for Full Stack Developer",
-                "learning_goal": "Achieve functional proficiency in html",
-                "recommended_action": "Complete foundational tutorials and practical exercises in html",
+                "why_needed": "Strengthen core fundamentals required for AI Engineer",
+                "learning_goal": "Achieve functional proficiency in python",
+                "recommended_action": "Complete foundational tutorials and practical exercises in python",
                 "estimated_duration": "2 weeks",
                 "prerequisites": "None",
                 "completion_status": "In Progress"
             },
             {
-                "skill": "css",
+                "skill": "deep learning",
                 "phase": "PHASE 2 \u2014 Build Technical Skills",
                 "current_status": "Missing",
                 "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for css",
-                "recommended_action": "Take structured online modules or specialized courses on css",
+                "why_needed": "Core requirement gap for target role: AI Engineer",
+                "learning_goal": "Master key concepts and hands-on applications for deep learning",
+                "recommended_action": "Take structured online modules or specialized courses on deep learning",
                 "estimated_duration": "3 weeks",
                 "prerequisites": "Phase 1 skills",
                 "completion_status": "Not Started"
             },
             {
-                "skill": "javascript",
+                "skill": "tensorflow",
                 "phase": "PHASE 2 \u2014 Build Technical Skills",
                 "current_status": "Missing",
                 "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for javascript",
-                "recommended_action": "Take structured online modules or specialized courses on javascript",
+                "why_needed": "Core requirement gap for target role: AI Engineer",
+                "learning_goal": "Master key concepts and hands-on applications for tensorflow",
+                "recommended_action": "Take structured online modules or specialized courses on tensorflow",
                 "estimated_duration": "3 weeks",
                 "prerequisites": "Phase 1 skills",
                 "completion_status": "Not Started"
             },
             {
-                "skill": "react",
+                "skill": "natural language processing",
                 "phase": "PHASE 2 \u2014 Build Technical Skills",
                 "current_status": "Missing",
                 "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for react",
-                "recommended_action": "Take structured online modules or specialized courses on react",
-                "estimated_duration": "3 weeks",
-                "prerequisites": "Phase 1 skills",
-                "completion_status": "Not Started"
-            },
-            {
-                "skill": "node.js",
-                "phase": "PHASE 2 \u2014 Build Technical Skills",
-                "current_status": "Missing",
-                "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for node.js",
-                "recommended_action": "Take structured online modules or specialized courses on node.js",
-                "estimated_duration": "3 weeks",
-                "prerequisites": "Phase 1 skills",
-                "completion_status": "Not Started"
-            },
-            {
-                "skill": "sql",
-                "phase": "PHASE 2 \u2014 Build Technical Skills",
-                "current_status": "Missing",
-                "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for sql",
-                "recommended_action": "Take structured online modules or specialized courses on sql",
+                "why_needed": "Core requirement gap for target role: AI Engineer",
+                "learning_goal": "Master key concepts and hands-on applications for natural language processing",
+                "recommended_action": "Take structured online modules or specialized courses on natural language processing",
                 "estimated_duration": "3 weeks",
                 "prerequisites": "Phase 1 skills",
                 "completion_status": "Not Started"
@@ -80,21 +56,9 @@
                 "phase": "PHASE 2 \u2014 Build Technical Skills",
                 "current_status": "Missing",
                 "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
+                "why_needed": "Core requirement gap for target role: AI Engineer",
                 "learning_goal": "Master key concepts and hands-on applications for git",
                 "recommended_action": "Take structured online modules or specialized courses on git",
-                "estimated_duration": "3 weeks",
-                "prerequisites": "Phase 1 skills",
-                "completion_status": "Not Started"
-            },
-            {
-                "skill": "rest api",
-                "phase": "PHASE 2 \u2014 Build Technical Skills",
-                "current_status": "Missing",
-                "priority": "High",
-                "why_needed": "Core requirement gap for target role: Full Stack Developer",
-                "learning_goal": "Master key concepts and hands-on applications for rest api",
-                "recommended_action": "Take structured online modules or specialized courses on rest api",
                 "estimated_duration": "3 weeks",
                 "prerequisites": "Phase 1 skills",
                 "completion_status": "Not Started"
@@ -106,7 +70,7 @@
                 "priority": "Medium",
                 "why_needed": "Demonstrate practical competency to potential recruiters",
                 "learning_goal": "Build an end-to-end industry project",
-                "recommended_action": "Build a real-world project utilizing core skills",
+                "recommended_action": "Build a real-world project utilizing machine learning, artificial intelligence",
                 "estimated_duration": "3 weeks",
                 "prerequisites": "Phase 2 technical skills",
                 "completion_status": "Not Started"
@@ -127,14 +91,15 @@
     },
     "what_if_simulation": {
         "what_if_career": "Data Scientist",
-        "match_percentage": "0%",
-        "already_have": [],
+        "match_percentage": "22%",
+        "already_have": [
+            "python",
+            "machine learning"
+        ],
         "need_to_learn": [
-            "Python",
             "Pandas",
             "NumPy",
             "Statistics",
-            "Machine Learning",
             "Scikit-learn",
             "Data Visualization",
             "Data Preprocessing",
@@ -143,46 +108,36 @@
         "additional_roadmap": [
             {
                 "step_number": 1,
-                "skill": "Python",
-                "action": "Learn foundational concepts and complete assignments in Python"
-            },
-            {
-                "step_number": 2,
                 "skill": "Pandas",
                 "action": "Learn foundational concepts and complete assignments in Pandas"
             },
             {
-                "step_number": 3,
+                "step_number": 2,
                 "skill": "NumPy",
                 "action": "Learn foundational concepts and complete assignments in NumPy"
             },
             {
-                "step_number": 4,
+                "step_number": 3,
                 "skill": "Statistics",
                 "action": "Learn foundational concepts and complete assignments in Statistics"
             },
             {
-                "step_number": 5,
-                "skill": "Machine Learning",
-                "action": "Learn foundational concepts and complete assignments in Machine Learning"
-            },
-            {
-                "step_number": 6,
+                "step_number": 4,
                 "skill": "Scikit-learn",
                 "action": "Learn foundational concepts and complete assignments in Scikit-learn"
             },
             {
-                "step_number": 7,
+                "step_number": 5,
                 "skill": "Data Visualization",
                 "action": "Learn foundational concepts and complete assignments in Data Visualization"
             },
             {
-                "step_number": 8,
+                "step_number": 6,
                 "skill": "Data Preprocessing",
                 "action": "Learn foundational concepts and complete assignments in Data Preprocessing"
             },
             {
-                "step_number": 9,
+                "step_number": 7,
                 "skill": "Data Science",
                 "action": "Learn foundational concepts and complete assignments in Data Science"
             }
@@ -191,14 +146,15 @@
     "what_if_simulations": {
         "Data Scientist": {
             "what_if_career": "Data Scientist",
-            "match_percentage": "0%",
-            "already_have": [],
+            "match_percentage": "22%",
+            "already_have": [
+                "python",
+                "machine learning"
+            ],
             "need_to_learn": [
-                "Python",
                 "Pandas",
                 "NumPy",
                 "Statistics",
-                "Machine Learning",
                 "Scikit-learn",
                 "Data Visualization",
                 "Data Preprocessing",
@@ -207,46 +163,36 @@
             "additional_roadmap": [
                 {
                     "step_number": 1,
-                    "skill": "Python",
-                    "action": "Learn foundational concepts and complete assignments in Python"
-                },
-                {
-                    "step_number": 2,
                     "skill": "Pandas",
                     "action": "Learn foundational concepts and complete assignments in Pandas"
                 },
                 {
-                    "step_number": 3,
+                    "step_number": 2,
                     "skill": "NumPy",
                     "action": "Learn foundational concepts and complete assignments in NumPy"
                 },
                 {
-                    "step_number": 4,
+                    "step_number": 3,
                     "skill": "Statistics",
                     "action": "Learn foundational concepts and complete assignments in Statistics"
                 },
                 {
-                    "step_number": 5,
-                    "skill": "Machine Learning",
-                    "action": "Learn foundational concepts and complete assignments in Machine Learning"
-                },
-                {
-                    "step_number": 6,
+                    "step_number": 4,
                     "skill": "Scikit-learn",
                     "action": "Learn foundational concepts and complete assignments in Scikit-learn"
                 },
                 {
-                    "step_number": 7,
+                    "step_number": 5,
                     "skill": "Data Visualization",
                     "action": "Learn foundational concepts and complete assignments in Data Visualization"
                 },
                 {
-                    "step_number": 8,
+                    "step_number": 6,
                     "skill": "Data Preprocessing",
                     "action": "Learn foundational concepts and complete assignments in Data Preprocessing"
                 },
                 {
-                    "step_number": 9,
+                    "step_number": 7,
                     "skill": "Data Science",
                     "action": "Learn foundational concepts and complete assignments in Data Science"
                 }
@@ -254,11 +200,12 @@
         },
         "Machine Learning Engineer": {
             "what_if_career": "Machine Learning Engineer",
-            "match_percentage": "0%",
-            "already_have": [],
+            "match_percentage": "29%",
+            "already_have": [
+                "python",
+                "machine learning"
+            ],
             "need_to_learn": [
-                "Python",
-                "Machine Learning",
                 "Scikit-learn",
                 "TensorFlow",
                 "NumPy",
@@ -268,36 +215,26 @@
             "additional_roadmap": [
                 {
                     "step_number": 1,
-                    "skill": "Python",
-                    "action": "Learn foundational concepts and complete assignments in Python"
-                },
-                {
-                    "step_number": 2,
-                    "skill": "Machine Learning",
-                    "action": "Learn foundational concepts and complete assignments in Machine Learning"
-                },
-                {
-                    "step_number": 3,
                     "skill": "Scikit-learn",
                     "action": "Learn foundational concepts and complete assignments in Scikit-learn"
                 },
                 {
-                    "step_number": 4,
+                    "step_number": 2,
                     "skill": "TensorFlow",
                     "action": "Learn foundational concepts and complete assignments in TensorFlow"
                 },
                 {
-                    "step_number": 5,
+                    "step_number": 3,
                     "skill": "NumPy",
                     "action": "Learn foundational concepts and complete assignments in NumPy"
                 },
                 {
-                    "step_number": 6,
+                    "step_number": 4,
                     "skill": "Pandas",
                     "action": "Learn foundational concepts and complete assignments in Pandas"
                 },
                 {
-                    "step_number": 7,
+                    "step_number": 5,
                     "skill": "PyTorch",
                     "action": "Learn foundational concepts and complete assignments in PyTorch"
                 }
@@ -305,12 +242,13 @@
         },
         "AI Engineer": {
             "what_if_career": "AI Engineer",
-            "match_percentage": "0%",
-            "already_have": [],
+            "match_percentage": "43%",
+            "already_have": [
+                "python",
+                "machine learning",
+                "artificial intelligence"
+            ],
             "need_to_learn": [
-                "Python",
-                "Machine Learning",
-                "Artificial Intelligence",
                 "Deep Learning",
                 "TensorFlow",
                 "Natural Language Processing",
@@ -319,36 +257,21 @@
             "additional_roadmap": [
                 {
                     "step_number": 1,
-                    "skill": "Python",
-                    "action": "Learn foundational concepts and complete assignments in Python"
-                },
-                {
-                    "step_number": 2,
-                    "skill": "Machine Learning",
-                    "action": "Learn foundational concepts and complete assignments in Machine Learning"
-                },
-                {
-                    "step_number": 3,
-                    "skill": "Artificial Intelligence",
-                    "action": "Learn foundational concepts and complete assignments in Artificial Intelligence"
-                },
-                {
-                    "step_number": 4,
                     "skill": "Deep Learning",
                     "action": "Learn foundational concepts and complete assignments in Deep Learning"
                 },
                 {
-                    "step_number": 5,
+                    "step_number": 2,
                     "skill": "TensorFlow",
                     "action": "Learn foundational concepts and complete assignments in TensorFlow"
                 },
                 {
-                    "step_number": 6,
+                    "step_number": 3,
                     "skill": "Natural Language Processing",
                     "action": "Learn foundational concepts and complete assignments in Natural Language Processing"
                 },
                 {
-                    "step_number": 7,
+                    "step_number": 4,
                     "skill": "Git",
                     "action": "Learn foundational concepts and complete assignments in Git"
                 }
@@ -356,10 +279,11 @@
         },
         "Software Developer": {
             "what_if_career": "Software Developer",
-            "match_percentage": "0%",
-            "already_have": [],
+            "match_percentage": "14%",
+            "already_have": [
+                "python"
+            ],
             "need_to_learn": [
-                "Python",
                 "Java",
                 "Object Oriented Programming",
                 "Data Structures",
@@ -370,36 +294,31 @@
             "additional_roadmap": [
                 {
                     "step_number": 1,
-                    "skill": "Python",
-                    "action": "Learn foundational concepts and complete assignments in Python"
-                },
-                {
-                    "step_number": 2,
                     "skill": "Java",
                     "action": "Learn foundational concepts and complete assignments in Java"
                 },
                 {
-                    "step_number": 3,
+                    "step_number": 2,
                     "skill": "Object Oriented Programming",
                     "action": "Learn foundational concepts and complete assignments in Object Oriented Programming"
                 },
                 {
-                    "step_number": 4,
+                    "step_number": 3,
                     "skill": "Data Structures",
                     "action": "Learn foundational concepts and complete assignments in Data Structures"
                 },
                 {
-                    "step_number": 5,
+                    "step_number": 4,
                     "skill": "Algorithms",
                     "action": "Learn foundational concepts and complete assignments in Algorithms"
                 },
                 {
-                    "step_number": 6,
+                    "step_number": 5,
                     "skill": "Git",
                     "action": "Learn foundational concepts and complete assignments in Git"
                 },
                 {
-                    "step_number": 7,
+                    "step_number": 6,
                     "skill": "Problem Solving",
                     "action": "Learn foundational concepts and complete assignments in Problem Solving"
                 }

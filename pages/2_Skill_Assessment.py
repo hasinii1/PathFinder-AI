@@ -69,23 +69,97 @@ overall = data.get("overall_score", 0)
 c1, c2, c3 = st.columns(3)
 
 with c1:
-    st.metric(
-        "Overall Skill Score",
-        f"{float(overall):.2f}%"
+    st.html(
+        f"""
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Overall Skill Score
+            </div>
+
+            <div style="
+                color:#5F574F;
+                font-size:34px;
+                line-height:1.15;
+            ">
+                {float(overall):.2f}%
+            </div>
+        </div>
+        """
     )
 
 with c2:
-    st.metric(
-        "Skills Assessed",
-        len(assessment)
+    st.html(
+        f"""
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Skills Assessed
+            </div>
+
+            <div style="
+                color:#5F574F;
+                font-size:34px;
+                line-height:1.15;
+            ">
+                {len(assessment)}
+            </div>
+        </div>
+        """
     )
 
 with c3:
-    st.metric(
-        "Evidence Sources",
-        "Resume + Projects"
-    )
+    st.html(
+        """
+        <div style="
+            background:#FFFDF9;
+            border:1px solid #E3D9CA;
+            border-radius:16px;
+            padding:20px;
+            min-height:118px;
+            box-sizing:border-box;
+        ">
+            <div style="
+                color:#756D63;
+                font-size:16px;
+                margin-bottom:10px;
+            ">
+                Evidence Sources
+            </div>
 
+            <div style="
+                color:#5F574F;
+                font-size:28px;
+                line-height:1.25;
+                white-space:normal;
+                overflow-wrap:anywhere;
+                word-break:break-word;
+            ">
+                Resume + Projects
+            </div>
+        </div>
+        """
+    )
 
 # ---------------------------------------------------------
 # CURRENT SKILL LEVELS
