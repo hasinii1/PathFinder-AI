@@ -2,7 +2,7 @@
 
 > An AI-powered student career guidance platform that analyzes student profiles, identifies skill gaps, matches relevant opportunities, and generates personalized career roadmaps.
 
-🌐 **Live Demo:** https://pathfinder-ai-navigator.streamlit.app/
+🌐 **Live Demo:** https://pathfinder-ai-c7vh.onrender.com/
 
 
 ---
