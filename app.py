@@ -1089,6 +1089,7 @@ def home():
             use_container_width=True,
         )
 
+    
     # =========================================================
     # FOOTER
     # =========================================================
@@ -1162,6 +1163,11 @@ pages = [
         "pages/7_Career_Simulator.py",
         title="Career Simulator",
         icon="🔮",
+    ),
+        st.Page(
+        "pages/8_Career_Agent.py",
+        title="Career Navigator",
+        icon="🤖",
     ),
 ]
 
