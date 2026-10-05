@@ -12,6 +12,10 @@ from utils.data_loader import (
     display_name,
     skill_names,
 )
+from utils.supabase_client import (
+    get_current_user,
+    sign_out,
+)
 
 
 # =============================================================
@@ -1114,7 +1118,7 @@ def home():
 # PAGE DEFINITIONS
 # =============================================================
 
-pages = [
+all_pages = [
 
     st.Page(
         home,
@@ -1164,12 +1168,26 @@ pages = [
         title="Career Simulator",
         icon="🔮",
     ),
-        st.Page(
+
+    st.Page(
         "pages/8_Career_Agent.py",
         title="Career Navigator",
         icon="🤖",
     ),
 ]
+
+if get_current_user() is None:
+    pages = [
+        st.Page(
+            "pages/0_Login.py",
+            title="Login",
+            icon="🔐",
+            default=True,
+        )
+    ]
+else:
+    pages = all_pages
+
 
 
 # =============================================================
@@ -1293,6 +1311,17 @@ def sidebar_navigation():
                 """,
                 unsafe_allow_html=True,
             )
+
+    if get_current_user() is not None:
+
+        st.sidebar.markdown("<div style=\"height:10px;\"></div>", unsafe_allow_html=True)
+
+        if st.sidebar.button(
+            "🚪 Logout",
+            use_container_width=True,
+        ):
+            sign_out()
+            st.rerun()
 
 
 # =============================================================

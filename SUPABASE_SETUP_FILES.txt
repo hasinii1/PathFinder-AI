@@ -1,0 +1,12 @@
+Intentionally added:
+- pages/0_Login.py
+- utils/supabase_client.py
+- supabase/schema.sql
+
+Intentionally modified:
+- app.py (authentication gate + logout button only)
+- requirements.txt (supabase dependency only)
+- .env.example (Gemini + Supabase variable names only)
+
+No other application source files were intentionally modified.
+The local .env file is excluded from this package for security.
