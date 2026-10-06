@@ -19,6 +19,19 @@ apply_styles()
 
 
 # =============================================================
+# CALLBACKS
+# =============================================================
+
+def set_suggested_question(question):
+    st.session_state["career_agent_question"] = question
+
+
+def clear_career_question():
+    st.session_state["career_agent_question"] = ""
+    st.session_state.pop("career_agent_response", None)
+
+
+# =============================================================
 # HEADER
 # =============================================================
 
@@ -177,15 +190,13 @@ for index, suggested_question in enumerate(suggested_questions):
 
     with question_columns[index % 3]:
 
-        if st.button(
+        st.button(
             suggested_question,
             key=f"suggested_question_{index}",
             use_container_width=True,
-        ):
-            st.session_state["career_agent_question"] = (
-                suggested_question
-            )
-            st.rerun()
+            on_click=set_suggested_question,
+            args=(suggested_question,),
+        )
 
 
 # =============================================================
@@ -209,14 +220,8 @@ with clear_col:
     clear_question = st.button(
         "Clear",
         use_container_width=True,
+        on_click=clear_career_question,
     )
-
-
-if clear_question:
-
-    st.session_state["career_agent_question"] = ""
-    st.session_state.pop("career_agent_response", None)
-    st.rerun()
 
 
 # =============================================================
